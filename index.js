@@ -2,7 +2,7 @@ const { Telegraf, Markup } = require('telegraf');
 const fs = require('fs');
 
 const bot = new Telegraf('7910641603:AAGpAVfxZG530poA-XZbNRP5havb78wEOic');
-
+const port = process.env.PORT || 4000;
 // ID do grupo que o bot gerencia
 const groupId = -1002178917131; // Substitua pelo ID do seu grupo
 
