@@ -89,7 +89,7 @@ bot.on('contact', async (ctx) => {
                 ⚠️  Atenção! Não dou essa oportunidade para todos, então você precisa ser rápido — as vagas são limitadas!
                 Me chama no whatsapp para garantir a sua vaga 👇🏻`,
                 Markup.inlineKeyboard([
-                    Markup.button.url('CLIQUE AQUI E GARANTA A SUA VAGA', 'https://wa.me/5551981055222')
+                    Markup.button.url('CLIQUE AQUI E GARANTA A SUA VAGA', 'https://api.whatsapp.com/send?phone=555181055222&text=Opa%20Jo%C3%A3o,%20quero%20saber%20como%20fa%C3%A7o%20para%20alavancar%20minha%20banca%20com%20voc%C3%AA.')
                 ])
             );
         } catch (error) {
